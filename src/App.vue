@@ -20,14 +20,9 @@
   <div class="filter-section">
     <div
       class="filter-btn"
-      @click="
-        filter_a_to_k = true;
-        filter_l_to_z = true;
-      "
-      :class="{ filterOn: filter_a_to_k && filter_l_to_z }"
-    >
-      ALL
-    </div>
+      @click="filter_a_to_k = true;filter_l_to_z = true;"
+      :class="{ filterOn: filter_a_to_k && filter_l_to_z }">ALL</div>
+      
     <div
       class="filter-btn"
       @click="
