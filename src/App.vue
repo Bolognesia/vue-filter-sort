@@ -3,7 +3,7 @@
     class="sort-btn-wrapper"
     @click="sort_reverse = !sort_reverse"
     :class="{ filterOn: sort_alph }"
-  >
+    >
     <div class="sort-btn" v-if="!sort_reverse">A-Z</div>
     <div class="sort-btn" v-if="sort_reverse">Z-A</div>
   </div>
@@ -12,7 +12,7 @@
     class="price-sort-wrapper"
     @click="sort_price_reverse = !sort_price_reverse"
     :class="{ filterOn: sort_price }"
-  >
+    >
     <div class="sort-btn" v-if="!sort_price_reverse">Low price to high price</div>
     <div class="sort-btn" v-if="sort_price_reverse">High price to low price</div>
   </div>
